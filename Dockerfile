@@ -5,7 +5,7 @@ LABEL Description="npm, pip, bundler" Vendor="nekonenene" Version="0.3"
 ## 文字コード設定
 RUN locale-gen ja_JP.UTF-8
 ENV LANG ja_JP.UTF-8
-ENV LANGUAGE ja_JP:en
+ENV LANGUAGE ja_JP:ja
 ENV LC_ALL ja_JP.UTF-8
 
 ENV NODE_VERSION 6.4.0
